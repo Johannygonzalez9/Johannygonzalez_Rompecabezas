@@ -1,12 +1,12 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-
-        {
-            "type": "java",
-            "name": "Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        }
-    ]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run App",
+      "request": "launch",
+      "mainClass": "App",
+      "vmArgs": "--module-path C:\\javafx\\lib --add-modules javafx.controls"
+    }
+  ]
 }
